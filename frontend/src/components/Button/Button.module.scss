@@ -1,0 +1,13 @@
+.button {
+	padding: 5px 10px;
+	background-color: var(--color-accent);
+	border: var(--border);
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 18px;
+	transition-duration: var(--transition-duration);
+
+	&:hover {
+		background-color: transparent;
+	}
+}
