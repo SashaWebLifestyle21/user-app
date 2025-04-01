@@ -1,3 +1,5 @@
+@use '../../assets/styles/media' as *;
+
 .form {
 	padding: 20px;
 	border: var(--border);
@@ -8,6 +10,10 @@
 	row-gap: 10px;
 
 	position: relative;
+
+	@include mobile-m {
+		padding-top: 30px;
+	}
 }
 
 .text {
